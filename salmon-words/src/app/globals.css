@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+button:active {
+    outline: solid;
+    outline-width: thin;
+    outline-color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    outline: solid;
+    outline-width: thin;
+    outline-color: white;
+    cursor: pointer;
+}
+
