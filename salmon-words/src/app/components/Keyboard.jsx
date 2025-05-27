@@ -3,9 +3,9 @@ import {useState} from "react"
 
 const Keyboard = ({onClick}) => {
 
-    const alphabetRowOne = "qwertyuiop".split("")
-    const alphabetRowTwo = "asdfghjkl".split("")
-    const alphabetRowThree = "zxcvbnm".split("")
+    const alphabetRowOne = "QWERTYUIOP".split("")
+    const alphabetRowTwo = "ASDFGHJKL".split("")
+    const alphabetRowThree = "ZXCVBNM".split("")
     
     return (
         <div className="flex-col p-2 text-2xl space-y-2 justify-center text-white">
@@ -30,7 +30,7 @@ const Keyboard = ({onClick}) => {
                     </button>)
                 })}
             </div>
-            <div className="flex justify-evenly space-x-5">
+            <div className="flex justify-evenly mt-5">
                 <button className="bg-slate-600 rounded-md p-2 w-1/4">⌫</button>
                 <button className="bg-slate-600 rounded-md p-2 w-1/4">Enter</button>
             </div>
